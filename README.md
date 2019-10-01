@@ -5,7 +5,7 @@ This is the official repository of the Paul Kane High School Computer Science Cl
 If someone screws with your project and you want to get the old version back, go on the website, and under commits, you'll see all versions that have previously been uploaded, so you can easily recover lost code or files.
 
 The LawnMowerRPG directory stores the unity project for our LawnMower game.
-The CNCMachine directory stores the files for the CNC Project
-The Learners directory is for people who are learning how to program
+The CNCMachine directory stores the files for the CNC Project.
+The Learners directory is for people who are learning how to program.
 
 Have fun and do some computer stuff.
