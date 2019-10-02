@@ -12,19 +12,21 @@ public class grass_behaviour : MonoBehaviour {
     public GameObject player;
     Vector3 pos;
     Vector3 playerPos;
-    private bool isCut = false;
+    public bool isCut = false;
 
     // Use this for initialization
     void Start () {
 
         pos = transform.position; // Take the current position
 
+        player = GameObject.Find("Player");
+
         spriteRenderer = GetComponent<SpriteRenderer>(); // We are accessing the SpriteRenderer that is attached to the Gameobject
         if (spriteRenderer.sprite == null) // If the sprite on spriteRenderer is null then
             spriteRenderer.sprite = notCut; // Set the sprite to sprite1
     }
 	
-	// Update is called once per frame
+	//Update is called once per frame
 	void Update () {
 
         playerPos = player.transform.position;
@@ -51,5 +53,10 @@ public class grass_behaviour : MonoBehaviour {
             spriteRenderer.sprite = cut;
         }
         
+    }
+
+    bool getCutState()
+    {
+        return isCut;
     }
 }

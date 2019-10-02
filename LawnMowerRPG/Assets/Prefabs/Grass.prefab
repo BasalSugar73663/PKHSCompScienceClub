@@ -54,7 +54,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   notCut: {fileID: 21300000, guid: 8c6ade7aa0523fd42b47dfcd17fbbde0, type: 3}
   cut: {fileID: 21300000, guid: e9f7e04c17b921a4ca8a0ceee76d91d2, type: 3}
-  player: {fileID: 1873742962491074, guid: a0ded0d02d9fba84f9b5ef62176aab01, type: 2}
+  player: {fileID: 0}
 --- !u!212 &212766606606817776
 SpriteRenderer:
   m_ObjectHideFlags: 1
