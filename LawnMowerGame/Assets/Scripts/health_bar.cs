@@ -1,20 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class health_bar : MonoBehaviour {
 
+    public Image[] hearts;
     public Sprite heart1;
     public Sprite heart2;
-    public Sprite heart3;
 
     private SpriteRenderer spriteRenderer;
-    public GameObject player;
+    GameObject player;
 
-    private int hp;
+    public int hp;
+    public int nbrHearts;
 
     // Use this for initialization
     void Start () {
+        player = GameObject.Find("Player");
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 	
@@ -23,25 +26,27 @@ public class health_bar : MonoBehaviour {
 
         hp = player.GetComponent<health_manager>().getHp();
 
-        ChangeTheSprite(hp);
+        for (int i = 0; i < hearts.Length; i++)
+        {
 
+            if (i < hp)
+            {
+                hearts[i].sprite = heart1;
+            }
+            else
+            {
+                hearts[i].sprite = heart2;
+            }
+
+            if (i < nbrHearts)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
+        }
 
 	}
-
-    void ChangeTheSprite(int health)
-    {
-        if (health == 1)
-        {
-            spriteRenderer.sprite = heart1;
-        }
-        if (health == 2)
-        {
-            spriteRenderer.sprite = heart2;
-        }
-        if (health == 2)
-        {
-            spriteRenderer.sprite = heart3;
-        }
-
-    }
 }

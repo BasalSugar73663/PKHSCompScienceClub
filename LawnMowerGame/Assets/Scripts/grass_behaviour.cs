@@ -9,7 +9,7 @@ public class grass_behaviour : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
 
-    public GameObject player;
+    GameObject player;
     Vector3 pos;
     Vector3 playerPos;
     public bool isCut = false;

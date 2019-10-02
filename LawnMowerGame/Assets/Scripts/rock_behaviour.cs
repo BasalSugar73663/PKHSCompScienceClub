@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class rock_behaviour : MonoBehaviour {
 
-    public GameObject player;
+    GameObject player;
     Vector3 pos;
     Vector3 playerPos;
     private bool lastMove = false;
@@ -12,6 +12,7 @@ public class rock_behaviour : MonoBehaviour {
     // Use this for initialization
     void Start () {
 
+        player = GameObject.Find("Player");
         pos = transform.position; // Take the current position
 
     }
@@ -26,9 +27,9 @@ public class rock_behaviour : MonoBehaviour {
             player.GetComponent<health_manager>().dropHp(1);
             lastMove = true;
         }
-        else
+        if (pos != playerPos)
         {
-            lastMove = true;
+            lastMove = false;
         }
 
     }

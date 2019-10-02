@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class health_manager : MonoBehaviour {
 
-    public int hp = 3;
+    public int hp;
 
 	// Use this for initialization
 	void Start () {
-		
+        hp = 5;
 	}
 	
 	// Update is called once per frame
@@ -23,6 +23,6 @@ public class health_manager : MonoBehaviour {
 
     public void dropHp(int dmg)
     {
-        hp -= dmg;
+        this.hp -= dmg;
     }
 }

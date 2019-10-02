@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{AD6C9A30-49AB-91EE-DD80-489A4E51608B}</ProjectGuid>
+    <ProjectGuid>{F2AECC72-96C0-88A0-91E5-E0C5D4629EA4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,16 +59,16 @@
      <Compile Include="Assets\Scripts\movement_controller.cs" />
      <Compile Include="Assets\Scripts\rock_behaviour.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerRPG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerRPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerRPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerRPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
