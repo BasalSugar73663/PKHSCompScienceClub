@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class health_bar : MonoBehaviour {
 
@@ -46,6 +47,11 @@ public class health_bar : MonoBehaviour {
             {
                 hearts[i].enabled = false;
             }
+        }
+
+        if (hp <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
         }
 
 	}

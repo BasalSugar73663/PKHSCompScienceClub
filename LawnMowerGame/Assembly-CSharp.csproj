@@ -56,7 +56,9 @@
      <Compile Include="Assets\Scripts\grass_behaviour.cs" />
      <Compile Include="Assets\Scripts\health_bar.cs" />
      <Compile Include="Assets\Scripts\health_manager.cs" />
+     <Compile Include="Assets\Scripts\main_menu.cs" />
      <Compile Include="Assets\Scripts\movement_controller.cs" />
+     <Compile Include="Assets\Scripts\objective.cs" />
      <Compile Include="Assets\Scripts\rock_behaviour.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/eloig/Desktop/PKHSCompScienceClub/LawnMowerGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
