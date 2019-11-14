@@ -9,11 +9,9 @@ public class grass_behaviour : MonoBehaviour {
 
     private SpriteRenderer spriteRenderer;
 
-    GameObject player;
-    GameObject rock;
+    public GameObject player;
     Vector3 pos;
     Vector3 playerPos;
-    Vector3 rockPos;
     public bool isCut = false;
 
     // Use this for initialization
@@ -30,9 +28,8 @@ public class grass_behaviour : MonoBehaviour {
 	void Update () {
 
         playerPos = player.transform.position;
-        rockPos = rock.transform.position;
 
-        if (pos == playerPos || pos == rockPos)
+        if (pos == playerPos)
         {
             isCut = true;
         }
