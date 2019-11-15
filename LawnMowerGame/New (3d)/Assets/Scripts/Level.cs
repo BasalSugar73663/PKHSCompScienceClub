@@ -5,12 +5,14 @@ using System;
 
 public class Level : MonoBehaviour
 {
+    [SerializeField]
     public GameObject[] prefabs;
     private int sizeX;
     private int sizeY;
 
     void Start()
     {
+
         string[] mapData = ReadLevelText();
 
         sizeX = mapData[0].ToCharArray().Length;
@@ -21,7 +23,7 @@ public class Level : MonoBehaviour
             char[] newTiles = mapData[y].ToCharArray();
             for(int x = 0; x < sizeX; x++)
             {
-                PlaceTile(x - sizeX/2, y - sizeY/2, newTiles[x].ToString());
+                PlaceTile(x - sizeX/2, -y + sizeY/2, newTiles[x].ToString());
             }
         }
     }

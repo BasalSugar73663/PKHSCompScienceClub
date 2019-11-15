@@ -7,12 +7,17 @@ public class main_menu : MonoBehaviour {
 
 	public void open_game()
     {
-        SceneManager.LoadScene("First Scene");
+        SceneManager.LoadScene("Lawn Scene");
     }
 	
     public void close_game()
     {
         Application.Quit();
+    }
+
+    public void suh_dude()
+    {
+        SceneManager.LoadScene("Main Menu");
     }
 	
 }

@@ -10,8 +10,8 @@ public class grass_behaviour : MonoBehaviour {
     private MeshRenderer meshRenderer;
 
     public GameObject player;
-    Vector3 pos;
-    Vector3 playerPos;
+    private Vector3 pos;
+    private Vector3 playerPos;
     public bool isCut = false;
 
     // Use this for initialization

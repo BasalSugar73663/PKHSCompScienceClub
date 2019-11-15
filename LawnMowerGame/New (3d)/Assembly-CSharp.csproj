@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\movement_controller.cs" />
      <Compile Include="Assets\Scripts\objective.cs" />
      <Compile Include="Assets\Scripts\rock_behaviour.cs" />
+     <None Include="Assets\Resources\pacman map.txt" />
      <None Include="Assets\Resources\map.txt" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
@@ -109,6 +110,18 @@
  </Reference>
  <Reference Include="com.unity.multiplayer-hlapi.Runtime">
  <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VectorGraphics">
+ <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/Unity.VectorGraphics.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.003">
+ <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.003.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VectorGraphics.Editor">
+ <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/Unity.VectorGraphics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.003">
+ <HintPath>/home/eloigenier/Desktop/PKHSCompScienceClub/LawnMowerGame/New (3d)/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.003.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>/home/eloigenier/Unity/Hub/Editor/2019.2.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
